@@ -143,7 +143,8 @@ DEFAULT_FROM_EMAIL = 'RoyalJapan公式通販サイト <no-reply@royaljapan.asia>
 
 WSGI_APPLICATION = 'royal.wsgi.application'
 
-
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
